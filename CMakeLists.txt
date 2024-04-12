@@ -10,7 +10,6 @@ project(radiation_layer)
 find_package(catkin REQUIRED COMPONENTS
   costmap_2d
   dynamic_reconfigure
-  message_generation
   roscpp
   radiation_msgs
 )
