@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import rospy
-import rospkg # Used to find path to data file
 import geometry_msgs.msg as gmsg # Used with publishing transforms
 from radiation_msgs.msg import DoseRate # Used for communicating radiation information
 import tf2_ros as tf2 # Used to publish transforms
