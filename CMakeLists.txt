@@ -20,3 +20,4 @@ include_directories(
 )
 
 add_library(rad_layer src/rad_layer.cpp)
+add_dependencies(rad_layer ${catkin_EXPORTED_TARGETS})
